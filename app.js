@@ -1,6 +1,10 @@
 /*ajuste do conteudo a tela de acordo com o modo (portrait or landscape)*/
-if (window.visualViewport.width < window.visualViewport.height) {
+if ((window.visualViewport.width) <= (window.visualViewport.height)) {
     document.getElementById("nav").style.justifyContent = "space-around";
+    document.getElementById("titleport").style.flexFlow = "column wrap";
+    document.getElementById("titleport").style.paddingBottom = "20vh";
+    document.getElementById("title_texts").style.width = "100%";
+    document.getElementById("title_avatar").style.width = "70%";
 }
 
 window.onresize = function() {
