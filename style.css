@@ -152,8 +152,9 @@ footer a:hover {
   background-color:#a09aec;
   border-color: #a09aec;
   border: #a09aec 2px solid;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: #4f5486 1px 1px 10px;
+  margin: 5px;
 }
 
 #botoes_ini button:hover {
