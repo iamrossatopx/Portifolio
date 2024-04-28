@@ -24,5 +24,5 @@ function loadExps() {
 }
 
 function contactme() {
-    location.href = "contactme.html";
+    location.href = "contato.html";
 }

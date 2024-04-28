@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* corpo da página */
+
 body {
   background-image: linear-gradient(90deg, #a09aec 35%, #6232b1 165%);
   font-family: "Libre Baskerville", serif;
@@ -43,6 +45,8 @@ footer {
   right: 0px;
   max-height: 10vh;
 }
+
+/* estilização do header e footer principais */
 
 footer a {
   font-size: 11px;
@@ -90,6 +94,8 @@ footer a:hover {
   border-radius: 5px;
   box-shadow: #4f5486 1px 1px 5px;
 }
+
+/* estilização do conteúdo index.html */
 
 #titleport {
   display: flex;
@@ -163,3 +169,17 @@ footer a:hover {
   border-color: #4f5486;
   box-shadow: #4f5486 1px 1px 10px;
 }
+
+/* estilização do conteúdo formacoes.html */
+
+
+
+/* estilização do conteúdo hobbies.html */
+
+
+
+/* estilização do conteúdo experiencias.html */
+
+
+
+/* estilização do conteúdo contato.html */
